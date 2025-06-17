@@ -1,3 +1,4 @@
+import {Link } from 'react-router-dom';
 function Register(){
     return (
         <div>
@@ -5,6 +6,7 @@ function Register(){
             <p>
                 This is the register page.
             </p>
+            <Link to="/login">Login</Link>
         </div>
     )
 }

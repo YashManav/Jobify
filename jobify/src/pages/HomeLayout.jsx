@@ -1,8 +1,11 @@
+import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 function HomeLayout(){
     return (
-        <h1>
-            Home Layout 
-        </h1>
+        <div>
+        <h1>Home Layout</h1>
+        <Outlet />
+        </div>  
     );  
 }
 export default HomeLayout;
